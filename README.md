@@ -1,7 +1,7 @@
 # Urbanism ReproHack
 
-Date: October 14, 2022
-Location: TU Delft Library
+- Date: October 14, 2022
+- Location: TU Delft Library
 
 |   Time    |   Activity   |
 |---    |---    |
