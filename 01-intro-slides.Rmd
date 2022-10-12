@@ -1,0 +1,112 @@
+---
+title: "Urbanism ReproHack"
+date: "October 14, 2022"
+output:
+  ioslides_presentation:
+    highlight: pygments
+    widescreen: yes
+    css: styles.css
+---
+
+# Welcome
+
+# Overview
+
+## Rbanism
+
+> - **Organised as part of [Rbanism](https://www.esciencecenter.nl/claudiu-forgaci/)**, a Netherlands eScience Center fellowship project.
+
+> - **Rbanism aims to build capacity, competence, and confidence** for working with data and research software in the urbanism research community at large.
+
+> - **This ReproHaack is the second of an event series** focusing on reproducibility, automation and scalability in urbanism research.
+
+> - **Promote the practice of reproducibility and automation** necessary for accelerating scientific progress in urbanism and associated fields.
+
+
+## Schedule
+
+|   Time    |   Activity   |
+|---    |---    |
+|   13:00   |    Welcome and Orientation    |
+|   13:15   |    TALK: Hugo Ledoux    |
+|   13:45   |    Tips and Tricks for Reproducing and Reviewing     
+|   14:10   |    Select papers, chat and coffee     |
+|   14:20   |    Round I of ReproHacking      |
+|   15:20   |    Re-group and sharing of experiences    |
+|   15:30   |    Coffee break      |
+|   15:45   |    Round II of ReproHacking - Complete Feedback form   |
+|   16:45   |    Re-group and sharing of experiences    |
+|   16:55   |    Feedback and Closing   |
+
+
+## Getting to know you...
+
+<!-- Add chart from survey? -->
+
+
+## ...with respect to reproducibility
+
+<!-- Add chart from survey? -->
+
+
+# Why should we care about reproducibility?
+
+## Motivating reproducibility
+
+“Computational notebooks [...] open up the world of analytics to [...] disciplines that encompass diverse methodologies and skillsets [such as] urban planning [...] Some urban planners focus on policymaking [...] Others employ qualitative methods to work in and with vulnerable communities. Others develop simulation models to forecast urbanization patterns and infrastructure needs. Others intermingle these, and many more, different approaches to understanding and shaping the city. Yet **all urban planners benefit [or should!] from basic quantitative literacy and an ability to reason critically with data**. This scholarly and professional imperative aligns with **the growing importance of computational thinking in the urban context** and parallel trends in geocomputation [...], geographic data science [...], and the open-source/open-science movements [...].” ([Boeing, 2019, p. 40](https://doi.org/10.18335/region.v6i3.278))
+
+
+## Motivating reproducibility
+
+“**toolkits relying on point-and-click interfaces are inefficient in the era of big data.** 
+Due to the limited scope for automation of tasks, not only is workflow efficiency 
+reduced but also the reproducibility of the underlying research is compromised, 
+because this largely depends on the (often undocumented) sequence of decisions 
+manually operating the software. [...] We then argue that **the field [of urban morphology] 
+needs a shift from dominant traditional geographic information system (GIS) environments 
+based on a graphical user interface (GUI; e.g., QGIS or ArcMap) towards reproducible
+open code-based workflows.**” ([Fleischmann et al., 2022, p. 3](https://onlinelibrary.wiley.com/doi/10.1111/gean.12302))
+
+
+## Motivating reproducibility
+
+> - Even qualitative work like literature reviews can be done in a systematic, reproducible and automated way (e.g., see 
+[Krishnan et al., 2021](https://link.springer.com/chapter/10.1007/978-3-030-76059-5_24))
+> - A reproducible workflow allows for close scrutiny and interaction with the data and results of a publication, potentially
+leading to new insights as well (e.g., see [Cottineau, 2022](https://link.springer.com/article/10.1007/s11192-021-04256-8))
+> - Reproducibility can contribute to increasing the scientific legitimacy of design-focused urbanism research 
+often regarded as pseudoscientific (see [Marshall, 2012](https://link.springer.com/article/10.1057/udi.2012.22))
+
+
+## However, these are potentials yet to meet
+
+> - Everyone (urbanists and non-urbanists) struggles with reproducibility and it is a hindrance to moving science forward
+> - Even with a fairly simple analysis challenges are usually faced in four main areas: organization, automation, documentation, and dissemination
+
+
+## Four facets of reproducibility
+
+1.  **Organization:** tools to organize your projects so that you don't have a single folder with hundreds of files
+
+2.  **Automation:** the power of scripting to create automated data analyses
+
+3.  **Documentation:** difference between binary files (e.g. docx) and text files and why text files are preferred for documentation
+
+4.  **Dissemination:** publishing is not the end of your analysis, rather it is a way station towards your future research and the future research of others
+
+# TALK: Hugo Ledoux
+
+# Reproducibility checklist
+
+## Reproducibility checklist
+
+Checklist available in `documents/checklist.md`
+
+- Serves as a tool to help you think about the reproducibility of your data
+analysis.
+- Many of the questions can be thought of as having a yes/no answer.
+- A better approach would be to see the questions as being open ended with
+the real question being, "What can I do to improve the status of my project
+on this bullet point?"
+- With that in mind, you'll never get 100% of the bullets right for your project,
+but you'll always be improving.
