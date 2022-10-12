@@ -2,18 +2,18 @@ The following checklist can be used to assess the level of reproducibility of yo
 
 ## Organization
 - [ ] Are all data, code, results, and documentation housed within a monophyletic folder structure?
-- [ ] Is your project folder structured to separate your data, code, documentation, and results?
+- [ ] Is the project folder structured to separate your data, code, documentation, and results?
 - [ ] Can the project be run from the project's root folder?
 - [ ] Is the project under version control?
 - [ ] Do files use a consistent naming scheme that indicates what they contain?
 
 ## Workflow and automation
 - [ ] Is the workflow clearly documented (with or without code)?
-- [ ] Is your workflow scripted, i.e., using code? 
-- [ ] Is your code well documented?
-- [ ] Is your code modular, i.e., does it use functions?
+- [ ] Is the workflow scripted, i.e., using code? 
+- [ ] Is the code well documented?
+- [ ] Is the code modular, i.e., does it use functions?
 - [ ] Are unit tests available for the code?
-- [ ] Does your repository make use of continuous integration tools to insure internal reproduciblity?
+- [ ] Does the repository make use of continuous integration tools to insure internal reproduciblity?
 
 ## Documentation
 - [ ] Is there a README file that indicates
@@ -44,7 +44,7 @@ The following checklist can be used to assess the level of reproducibility of yo
 - [ ] Is there a list of dependencies? 
 - [ ] Is a container available to run the project?
 - [ ] Are version number of every external application used in the process?
-- [ ] Does your project use only open software?
+- [ ] Does the project use only open software?
 
 This list was inspired by the more extensive [Checklist Questions to stimulate thought about a Project's Reproducibility](https://github.com/datacarpentry/rr-intro/blob/gh-pages/checklist.md) 
 which we recommend you consider for making your work reproducible.
