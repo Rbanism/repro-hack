@@ -10,15 +10,13 @@ output:
 
 # Welcome
 
-# Overview
-
 ## Rbanism
 
 > - **Organised as part of [Rbanism](https://www.esciencecenter.nl/claudiu-forgaci/)**, a Netherlands eScience Center fellowship project.
 
 > - **Rbanism aims to build capacity, competence, and confidence** for working with data and research software in the urbanism research community at large.
 
-> - **This ReproHaack is the second of an event series** focusing on reproducibility, automation and scalability in urbanism research.
+> - **This ReproHack is the second of an event series** focusing on reproducibility, automation and scalability in urbanism research.
 
 > - **Promote the practice of reproducibility and automation** necessary for accelerating scientific progress in urbanism and associated fields.
 
@@ -29,7 +27,7 @@ output:
 |---    |---    |
 |   13:00   |    Welcome and Orientation    |
 |   13:15   |    TALK: Hugo Ledoux    |
-|   13:45   |    Tips and Tricks for Reproducing and Reviewing     
+|   13:45   |    Guidelines for Reproducing and Reviewing     
 |   14:10   |    Select papers, chat and coffee     |
 |   14:20   |    Round I of ReproHacking      |
 |   15:20   |    Re-group and sharing of experiences    |
@@ -39,15 +37,7 @@ output:
 |   16:55   |    Feedback and Closing   |
 
 
-## Getting to know you...
-
-<!-- Add chart from survey? -->
-
-
-## ...with respect to reproducibility
-
-<!-- Add chart from survey? -->
-
+# Getting to know you
 
 # Why should we care about reproducibility?
 
@@ -78,15 +68,9 @@ leading to new insights as well (e.g., see [Cottineau, 2022](https://link.spring
 often regarded as pseudoscientific (see [Marshall, 2012](https://link.springer.com/article/10.1057/udi.2012.22))
 
 
-## However, these are potentials yet to meet
-
-> - Everyone (urbanists and non-urbanists) struggles with reproducibility and it is a hindrance to moving science forward
-> - Even with a fairly simple analysis challenges are usually faced in four main areas: organization, automation, documentation, and dissemination
-
-
 # TALK: Hugo Ledoux
 
-# Tips on reproducing and reviewing
+# Guidelines on reproducing and reviewing
 
 ## Four facets of reproducibility
 
@@ -102,18 +86,18 @@ often regarded as pseudoscientific (see [Marshall, 2012](https://link.springer.c
 
 ## Organization
 - [ ] Are all data, code, results, and documentation housed within a monophyletic folder structure?
-- [ ] Is your project folder structured to separate your data, code, documentation, and results?
+- [ ] Is the project folder structured to separate the data, code, documentation, and results?
 - [ ] Can the project be run from the project's root folder?
 - [ ] Is the project under version control?
 - [ ] Do files use a consistent naming scheme that indicates what they contain?
 
 ## Workflow and automation
 - [ ] Is the workflow clearly documented (with or without code)?
-- [ ] Is your workflow scripted, i.e., using code? 
-- [ ] Is your code well documented?
-- [ ] Is your code modular, i.e., does it use functions?
+- [ ] Is the workflow scripted, i.e., using code? 
+- [ ] Is the code well documented?
+- [ ] Is the code modular, i.e., does it use functions?
 - [ ] Are unit tests available for the code?
-- [ ] Does your repository make use of continuous integration tools to insure internal reproduciblity?
+- [ ] Does the repository make use of continuous integration tools to insure internal reproduciblity?
 
 ## Documentation
 - [ ] Is there a README file that indicates
@@ -133,7 +117,7 @@ often regarded as pseudoscientific (see [Marshall, 2012](https://link.springer.c
 ## Data
 - [ ] Is the data included or linked, with instructions on how to obtain the data?
 - [ ] If data is not included, is this because it is not necessary or generated as part of the project?
-- [ ] Are your raw data (if any) and processed data files separated?
+- [ ] Are the raw data (if any) and processed data files separated?
 - [ ] If data is not open:
   - [ ] Is it accessible via a protocol?
   - [ ] Is there synthetic data provided so the project can be run?
@@ -144,23 +128,37 @@ often regarded as pseudoscientific (see [Marshall, 2012](https://link.springer.c
 - [ ] Is there a list of dependencies? 
 - [ ] Is a container available to run the project?
 - [ ] Are version number of every external application used in the process?
-- [ ] Does your project use only open software?
+- [ ] Does the project use only open software?
 
 
 ## Reproducibility checklist
 
 Checklist available in `documents/checklist.md`
 
-- Serves as a tool to help you think about the reproducibility of your data
+- Serves as a tool to help you think about the reproducibility of the data
 analysis.
 - Many of the questions can be thought of as having a yes/no answer.
 - A better approach would be to see the questions as being open ended with
-the real question being, "What can I do to improve the status of my project
+the real question being, "What can one do to improve the status of their project
 on this bullet point?"
-- With that in mind, you'll never get 100% of the bullets right for your project,
-but you'll always be improving.
+- With that in mind, one will never get 100% of the bullets right for their project,
+but they will always be improving.
+
 
 ## How to review?
 
-[![](../img/urbanism-reprohack-screenshot.png){width=100%}](https://www.reprohack.org/event/21/)
+1. Select a paper submitted for the Urbanism ReproHack.
+2. Click on 'Review this paper' on the submission page to start reviewing.
+3. Read the information supplied by the author on the submission page.
+4. Round 1: try to reproduce the results of the paper. (1 hour)
+5. Round 2: submit your review (1 hour)
+    - Fill in the review form on ReproHack Hub
+    - Fill in the paper-based checklist
+6. For more information on how to review, see also ['Reviewing as an auditor'](https://www.reprohack.org/participant_guidelines).
 
+**Important!** Reproducibility is hard! Without submitting authors there would be no ReproHack. Constructive criticism only please!
+
+
+## Submitted papers
+
+![](../img/IMG_5416_web.png){width=100%}
