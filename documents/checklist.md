@@ -1,4 +1,6 @@
-The following checklist can be used to assess the level of reproducibility of your project.
+# Rbanism Reproducibility Self-assessment Checklist
+
+The following checklist can be used to assess the level of reproducibility of your project. Note that the checklist serves as a tool to help you think about the reproducibility of your data analysis. Although many of the questions can be thought of as having a yes/no answer, we encourage you to see the questions as being open ended with the real question being, "What can I do to improve the status of my project on this bullet point?" With that in mind, you'll never get 100% of the bullets right for your project, but you'll always be improving.
 
 ## Organization
 - [ ] Are all data, code, results, and documentation housed within a monophyletic folder structure?
